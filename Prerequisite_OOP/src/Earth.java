@@ -15,19 +15,9 @@ public class Earth {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Human tom;
-		tom = new Human();
-		tom.age = 5;
-		tom.eyeColor = "brown";
-		tom.heightInInches = 72;
-		tom.name = "Tom Zsabo";
-		tom.speak();
-		
-		Human joe = new Human();
-		joe.age = 6;
-		joe.eyeColor = "black";
-		joe.heightInInches = 15;
-		joe.name = "Joe";
-		joe.speak();
+		Human human1 = new Human("Tom", 25, 76, "Blue");
+		Human human2 = new Human("Joe", 28, 68, "Green");
+		human1.speak();
+		human2.speak();
 	}
 }
