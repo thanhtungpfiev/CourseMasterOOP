@@ -18,9 +18,5 @@ public class Zoo {
 		// TODO Auto-generated method stub
 		Animal animal1 = new Animal(24, "M", 72);
 		animal1.eat();
-		
-		Bird bird1 = new Bird(3, "F", 12);
-		bird1.eat();
-		bird1.fly();
 	}
 }
