@@ -9,7 +9,7 @@
  * @author tungdt9
  *
  */
-public class Animal {
+public abstract class Animal {
 	int age;
 	String gender;
 	double weightInPounds;
@@ -27,5 +27,8 @@ public class Animal {
 	public void sleep() {
 		System.out.println("Sleeping...");
 	}
+	
+	public abstract void move();
+	
 
 }

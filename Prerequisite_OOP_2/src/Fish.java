@@ -1,6 +1,6 @@
 /**
  * tungdt9
- * Jun 5, 2017
+ * Jun 7, 2017
  * TODO
  */
 
@@ -8,16 +8,20 @@
  * @author tungdt9
  *
  */
-public class Bird extends Animal {
+public class Fish extends Animal {
 
 	/**
 	 * @param age
 	 * @param gender
 	 * @param weightInPounds
 	 */
-	public Bird(int age, String gender, double weightInPounds) {
+	public Fish(int age, String gender, double weightInPounds) {
 		super(age, gender, weightInPounds);
 		// TODO Auto-generated constructor stub
+	}
+	
+	public void swim() {
+		System.out.println("Swimming...");
 	}
 
 	/* (non-Javadoc)
@@ -25,7 +29,7 @@ public class Bird extends Animal {
 	 */
 	public void move() {
 		// TODO Auto-generated method stub
-		System.out.println("Flapping wings...");
-		
+		System.out.println("Fish is swimming...");
 	}
+
 }
