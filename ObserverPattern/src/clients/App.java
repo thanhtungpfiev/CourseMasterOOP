@@ -1,4 +1,10 @@
+package clients;
 import java.util.Date;
+
+import observers.HRDepartment;
+import observers.IObserver;
+import observers.PayrollDepartment;
+import subjects.EmployeeManagementSystem;
 
 import domain.Employee;
 
@@ -30,6 +36,8 @@ public class App {
 		Employee bob = new Employee("Bob", new Date(), 35000, true);
 		
 		ems.hireNewEmployee(bob);
+		
+		ems.modifyEmployeeName(5, "Imtiaz");
 	}
 	
 	

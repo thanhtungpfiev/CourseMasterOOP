@@ -1,3 +1,4 @@
+package observers;
 import domain.Employee;
 
 /**
@@ -16,10 +17,10 @@ public class HRDepartment implements IObserver {
 	 * @see IObserver#newHireEmployee(domain.Employee)
 	 */
 	@Override
-	public void newHireEmployee(Employee e) {
+	public void callMe(Employee emp, String msg) {
 		// TODO Auto-generated method stub
 		System.out.println("HR department notified...");
-		System.out.println("New Hire: " + e.getName());
+		System.out.println(msg + " " + emp.getName());
 	}
 
 }

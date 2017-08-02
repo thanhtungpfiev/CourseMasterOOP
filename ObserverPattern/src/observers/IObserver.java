@@ -1,3 +1,4 @@
+package observers;
 import domain.Employee;
 
 /**
@@ -11,5 +12,5 @@ import domain.Employee;
  *
  */
 public interface IObserver {
-	public void newHireEmployee(Employee e);
+	public void callMe(Employee emp, String msg);
 }
